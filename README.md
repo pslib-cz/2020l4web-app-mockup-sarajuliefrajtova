@@ -9,7 +9,6 @@ App Mockup
 ## Plány
 
 ### 1. Plán
-
 - Míří především na pracovní činnosti (resp. povinnosti), které jsou nutné splnit do určitého termínu
 - PRINCIP:
     1. Uživatel si může přidat (ikonou **+**) libovolnou činnost 
@@ -22,10 +21,13 @@ App Mockup
 
 
 ### 2. Plán
-
 - Míří především fyzickou produktivitu (resp. fyzické zdraví) - sport, procházky, lib. fyzickou činnost
 - Funguje na téměř totožném principu jako „plán 1.“, s vyjímkou:
-    - Možnosti připojit platformu Spotify k poslechu hudby
+    - Možnost připojit platformu Spotify k poslechu hudby
 
 
 ### 3. Plán
+- Míří především na psychické zdraví, klid a obecnou spokojenost uživatele (meditace, čtení knihy, opravdové nic nedělání).
+- Opět téměř totožný předešlým plánům
+- Opět s vyjímkou oproti 1. plánu: 
+    - Možnost připojit platformu Spotify k poslechu hudby
