@@ -1,1 +1,2 @@
-# 2020l4web-app-mockup-sarajuliefrajtova
+# Procrastination master
+App Mockup
