@@ -1,4 +1,4 @@
-# Procrastination master
+# PROCRASTINATION MASTER
 App Mockup
 
 ## O aplikaci
