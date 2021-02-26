@@ -5,6 +5,8 @@ App Mockup
 - Aplikace je zaměřená pro uživatel (studenti, pracující na home-office, podnikatelé atd.), kteří chtějí být během svých pracovních dnů co nejproduktivnější, ale zároveň šťastní. 
 - Aplikace se tedy nezaměřuje pouze na produktivitu z pracovní stránky, ale také na fyzické a psychické zdraví jedince
 - Každý uživatel si může vybrat až ze 3 „plánů“ mezi kterými se může libovolně přepínat.
+- Kromě přemisťování mezi jednotlivými plány, může uživatel zjišťovat svůj progres prostřednictvím dat získanýchh z jednotlivých aktivit.
+- Nezbytnou součástí aplikace je také nastavení uživatele - jeho jméno, které se bude zobrazovat při vstupu do jednotlivých plánů, oblíbená aktivita a na jaké pozici se uživatel momentálně nachází (student, zaměstnanec apod.)
 
 ## Plány
 - Jednotlivé plány jsou odděleny příslušnou barvou 
