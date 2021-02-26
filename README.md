@@ -7,6 +7,7 @@ App Mockup
 - Každý uživatel si může vybrat až ze 3 „plánů“ mezi kterými se může libovolně přepínat.
 
 ## Plány
+- Jednotlivé plány jsou odděleny příslušnou barvou - #7E85BD (1.plán); #2BB298 (2. plán); #F6A5A5 (3. plán)
 
 ### 1. Plán
 - Míří především na pracovní činnosti (resp. povinnosti), které jsou nutné splnit do určitého termínu
