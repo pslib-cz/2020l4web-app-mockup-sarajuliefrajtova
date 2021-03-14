@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62.736" height="62.736" viewBox="0 0 62.736 62.736">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #f6a5a5;
+      }
+
+      .cls-3 {
+        fill: #fffefe;
+      }
+
+      .cls-4, .cls-6 {
+        fill: #535461;
+      }
+
+      .cls-4 {
+        opacity: 0.3;
+      }
+
+      .cls-5 {
+        opacity: 0.1;
+      }
+
+      .cls-7 {
+        opacity: 0.05;
+      }
+
+      .cls-8 {
+        filter: url(#Path_50);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="gray" stop-opacity="0.251"/>
+      <stop offset="0.54" stop-color="gray" stop-opacity="0.122"/>
+      <stop offset="1" stop-color="gray" stop-opacity="0.102"/>
+    </linearGradient>
+    <filter id="Path_50" x="0" y="0" width="62.736" height="62.736" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_41" data-name="Group 41" transform="translate(-5.733 3.608)">
+    <circle id="Ellipse_9" data-name="Ellipse 9" class="cls-1" cx="22.745" cy="22.745" r="22.745" transform="translate(14.356 2.015)"/>
+    <g class="cls-8" transform="matrix(1, 0, 0, 1, 5.73, -3.61)">
+      <path id="Path_50-2" data-name="Path 50" class="cls-2" d="M22.368,0A22.368,22.368,0,1,1,0,22.368,22.368,22.368,0,0,1,22.368,0Z" transform="translate(9 6)"/>
+    </g>
+    <circle id="Ellipse_11" data-name="Ellipse 11" class="cls-3" cx="17.781" cy="17.781" r="17.781" transform="translate(19.319 6.978)"/>
+    <rect id="Rectangle_22" data-name="Rectangle 22" class="cls-4" width="1.005" height="15.708" transform="translate(36.598 10.12)"/>
+    <g id="Group_30" data-name="Group 30" class="cls-5" transform="translate(27.56 19.681)">
+      <rect id="Rectangle_23" data-name="Rectangle 23" width="14.2" height="1.257" transform="translate(10.608 4.702)"/>
+      <rect id="Rectangle_24" data-name="Rectangle 24" width="1.257" height="10.086" transform="translate(0 1.113) rotate(-62.36)"/>
+      <circle id="Ellipse_12" data-name="Ellipse 12" cx="1.885" cy="1.885" r="1.885" transform="translate(7.655 3.445)"/>
+    </g>
+    <rect id="Rectangle_25" data-name="Rectangle 25" class="cls-6" width="14.2" height="1.257" transform="translate(38.169 24.131)"/>
+    <rect id="Rectangle_26" data-name="Rectangle 26" class="cls-6" width="10.086" height="1.257" transform="translate(28.148 19.431) rotate(27.64)"/>
+    <circle id="Ellipse_13" data-name="Ellipse 13" class="cls-6" cx="1.885" cy="1.885" r="1.885" transform="translate(35.216 22.875)"/>
+    <g id="Group_31" data-name="Group 31" class="cls-5" transform="translate(19.318 6.978)">
+      <path id="Path_24" data-name="Path 24" d="M321.382,185.188A17.783,17.783,0,0,1,353.373,174.5a17.783,17.783,0,1,0-29.8,19.247A17.7,17.7,0,0,1,321.382,185.188Z" transform="translate(-320 -165.27)"/>
+    </g>
+    <path id="Path_48" data-name="Path 48" class="cls-7" d="M809.1,313.09s-.229.545-.115.718" transform="translate(-758.912 -296.824)"/>
+    <path id="Path_49" data-name="Path 49" class="cls-7" d="M665.58,310.35s.115.545,0,.718" transform="translate(-624.549 -294.256)"/>
+  </g>
+</svg>

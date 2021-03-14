@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31.008" height="32.867" viewBox="0 0 31.008 32.867">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        filter: url(#Icon_awesome-trash);
+      }
+    </style>
+    <filter id="Icon_awesome-trash" x="0" y="0" width="31.008" height="32.867" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <path id="Icon_awesome-trash-2" data-name="Icon awesome-trash" class="cls-1" d="M12.544.929H9.059L8.786.386A.7.7,0,0,0,8.162,0H4.843a.689.689,0,0,0-.621.386L3.949.929H.465A.465.465,0,0,0,0,1.394v.929a.465.465,0,0,0,.465.465H12.544a.465.465,0,0,0,.465-.465V1.394A.465.465,0,0,0,12.544.929Zm-11,12.631a1.394,1.394,0,0,0,1.391,1.307h7.137a1.394,1.394,0,0,0,1.391-1.306l.616-9.843H.929Z" transform="translate(9 6)"/>
+  </g>
+</svg>
