@@ -1,11 +1,12 @@
-body, html {
-    margin: 0; 
-    padding: 0; 
+body,
+html {
+    margin: 0;
+    padding: 0;
     scroll-behavior: smooth;
-    font-family: "stolzl"; 
+    font-family: "stolzl";
     font-weight: 300;
-    background-color: var(--white); 
-    overflow-x: hidden; 
+    background-color: var(--white);
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,7 +21,10 @@ body, html {
 
 /* YOUR PLANS */
 
-.your-plans > header, .settings > header, .welcome > header {
+.your-plans>header,
+.settings>header,
+.welcome>header,
+.review-task>header {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -28,13 +32,22 @@ body, html {
     margin: 20px 0;
 }
 
-.your-plans > main > h1, .settings > main > h1, .welcome > header > h1 {
+.your-plans>main>h1,
+.settings>main>h1,
+.welcome>header>h1,
+.review-task>header>h1 {
     font-weight: 500;
     margin-bottom: 33px;
     letter-spacing: 0.6px;
 }
 
-.your-plans .be-productive, .your-plans .move-your-body, .your-plans .mindfulness, .welcome .first-activity, .welcome .second-activity, .welcome .add-activity {
+.your-plans .be-productive,
+.your-plans .move-your-body,
+.your-plans .mindfulness,
+.welcome .first-activity,
+.welcome .second-activity,
+.welcome .add-activity,
+.review-task .background-turquoise {
     width: 21rem;
     height: 11rem;
     display: flex;
@@ -49,7 +62,9 @@ body, html {
     background-color: var(--glaucous);
 }
 
-.your-plans .move-your-body, .welcome .first-activity, .welcome .second-activity  {
+.your-plans .move-your-body,
+.welcome .first-activity,
+.welcome .second-activity {
     background-color: var(--turquoise);
 }
 
@@ -57,14 +72,24 @@ body, html {
     background-color: var(--pastelpink);
 }
 
-.your-plans .be-productive > h2, .your-plans .move-your-body > h2, .your-plans .mindfulness > h2, .welcome .first-activity > h2, .welcome .second-activity > h2 {
+.your-plans .be-productive>h2,
+.your-plans .move-your-body>h2,
+.your-plans .mindfulness>h2,
+.welcome .first-activity>h2,
+.welcome .second-activity>h2,
+.review-task .background-turquoise h2 {
     font-weight: 500;
     color: var(--white);
     text-align: center;
     letter-spacing: 1.2px;
 }
 
-.your-plans .be-productive .second-row, .your-plans .move-your-body .second-row, .your-plans .mindfulness .second-row {
+.your-plans .be-productive .second-row,
+.your-plans .move-your-body .second-row,
+.your-plans .mindfulness .second-row,
+.review-task .satisfaction .second-row,
+.review-task .paused-activity .second-row,
+.review-task .share-results .second-row {
     width: 75%;
     height: 6rem;
     margin: -9px auto;
@@ -80,7 +105,8 @@ body, html {
     margin: 0px 0 10px 5px;
 }
 
-.workout-svg, .meditation-svg {
+.workout-svg,
+.meditation-svg {
     margin-bottom: 10px;
 }
 
@@ -90,7 +116,9 @@ body, html {
     align-items: center;
 }
 
-.your-plans .be-productive .circle, .your-plans .move-your-body .circle, .your-plans .mindfulness .circle {
+.your-plans .be-productive .circle,
+.your-plans .move-your-body .circle,
+.your-plans .mindfulness .circle {
     width: 2rem;
     height: 2rem;
     margin: 0;
@@ -107,7 +135,7 @@ body, html {
     border: 0px solid;
 }
 
-.your-plans .done-tasks > p:nth-of-type(2) {
+.your-plans .done-tasks>p:nth-of-type(2) {
     font-size: 16px;
     margin: 0;
 }
@@ -126,7 +154,7 @@ body, html {
     justify-content: space-around;
 }
 
-.settings .background-gradient > form {
+.settings .background-gradient>form {
     margin: 0 auto;
     text-align: center;
     height: 22rem;
@@ -137,7 +165,9 @@ body, html {
     align-items: center;
 }
 
-.settings .type-name, .settings .activity, .settings .position {
+.settings .type-name,
+.settings .activity,
+.settings .position {
     display: flex;
     flex-direction: column;
 }
@@ -159,11 +189,11 @@ body, html {
 
 /* WELCOME */
 
-.welcome > header {
+.welcome>header {
     align-items: center;
 }
 
-.welcome > main {
+.welcome>main {
     height: 38rem;
     display: flex;
     flex-direction: column;
@@ -178,7 +208,8 @@ body, html {
     margin: 0 auto;
 }
 
-.welcome .first-activity, .welcome .second-activity {
+.welcome .first-activity,
+.welcome .second-activity {
     position: relative;
     justify-content: end;
     margin: 0;
@@ -190,13 +221,20 @@ body, html {
     right: 17px;
 }
 
-.welcome .duration .duration-clocks-img, .welcome .unfinished-emoji {
+.welcome .duration .duration-clocks-img,
+.welcome .unfinished-emoji,
+.review-task .neutral-emoji {
     width: 100%;
     height: 4rem;
     margin: 0 auto;
 }
 
-.welcome .duration p, .welcome .repeat-activity p, .welcome .done-unifinished-activity p {
+.welcome .duration p,
+.welcome .repeat-activity p,
+.welcome .done-unifinished-activity p,
+.review-task .not-really-reaction p,
+.review-task .not-bad-reaction p,
+.review-task .fablous-reaction p {
     margin: 0;
     color: white;
     font-weight: 500;
@@ -215,7 +253,7 @@ body, html {
 
 .neumorphic {
     box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
-      -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
+        -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
     font-size: 5rem;
     width: 18.5rem;
     height: 8.4rem;
@@ -227,7 +265,7 @@ body, html {
 
 .neumorphic--pressed {
     box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
-    inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+        inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
 }
 
 .variation2 {
@@ -240,7 +278,59 @@ body, html {
 }
 
 
+/* REVIEW */
+
+.review-task>header {
+    align-items: center;
+}
+
+.review-task .background-turquoise {
+    height: 40rem;
+    background-color: var(--turquoise);
+}
+
+.review-task .background-turquoise .satisfaction {
+    display: flex;
+    flex-direction: column;
+}
+
+.review-task .satisfaction .second-row {
+    align-items: baseline;
+}
+
+.review-task .sad-emoji-png,
+.review-task .neutral-emoji-png,
+.review-task .fablous-emoji-png {
+    width: 100%;
+    height: 3rem;
+}
 
 
+.review-task .paused-activity .second-row {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.review-task .wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    justify-content: space-between;
+}
 
+.review-task .satisfaction, .review-task .paused-activity, .review-task .paused-activity, .review-task .share-results {
+    width: 18rem;
+    height: 9.5rem;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, .23);
+    border-radius: 21px;
+}
+
+.review-task .satisfaction .second-row {
+    width: 89%;
+}
+
+.review-task .share-results .second-row {
+    width: 68%;
+}
