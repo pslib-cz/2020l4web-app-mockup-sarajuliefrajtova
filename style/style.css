@@ -14,9 +14,10 @@ html {
 
 :root {
     --white: #ffffff;
-    --turquoise: #2BB298;
+    --turquoise: rgba(43, 178, 152, .86);
     --pastelpink: #F6A5A5;
     --glaucous: #7E85BD;
+    --white-ghost: rgba(255, 255, 255, .23);
 }
 
 /* YOUR PLANS */
@@ -24,7 +25,8 @@ html {
 .your-plans>header,
 .settings>header,
 .welcome>header,
-.review-task>header {
+.review-task>header,
+.edit-task>header {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -35,7 +37,9 @@ html {
 .your-plans>main>h1,
 .settings>main>h1,
 .welcome>header>h1,
-.review-task>header>h1 {
+.review-task>header>h1,
+.sing-in>main>h1,
+.edit-task>header>h1 {
     font-weight: 500;
     margin-bottom: 33px;
     letter-spacing: 0.6px;
@@ -77,7 +81,8 @@ html {
 .your-plans .mindfulness>h2,
 .welcome .first-activity>h2,
 .welcome .second-activity>h2,
-.review-task .background-turquoise h2 {
+.review-task .background-turquoise h2,
+.edit-task .background-turquoise h2 {
     font-weight: 500;
     color: var(--white);
     text-align: center;
@@ -143,10 +148,10 @@ html {
 
 /* SETTINGS */
 
-.settings .background-gradient {
+.settings .background-pink {
     width: 21rem;
     height: 35rem;
-    background: linear-gradient(#58BDAA, #7E85BD, #F6A5A5);
+    background: var(--pastelpink);
     border-radius: 41px;
     display: flex;
     align-items: center;
@@ -154,7 +159,7 @@ html {
     justify-content: space-around;
 }
 
-.settings .background-gradient>form {
+.settings .background-pink>form {
     margin: 0 auto;
     text-align: center;
     height: 22rem;
@@ -189,7 +194,9 @@ html {
 
 /* WELCOME */
 
-.welcome>header {
+.welcome>header,
+.edit-task>header,
+.review-task>header {
     align-items: center;
 }
 
@@ -319,7 +326,10 @@ html {
     justify-content: space-between;
 }
 
-.review-task .satisfaction, .review-task .paused-activity, .review-task .paused-activity, .review-task .share-results {
+.review-task .satisfaction,
+.review-task .paused-activity,
+.review-task .paused-activity,
+.review-task .share-results {
     width: 18rem;
     height: 9.5rem;
     margin: 0 auto;
@@ -334,3 +344,263 @@ html {
 .review-task .share-results .second-row {
     width: 68%;
 }
+
+/* SING IN */
+
+.sing-in .background-turquoise,
+.edit-task .background-turquoise {
+    background-color: var(--turquoise);
+    width: 22rem;
+    height: 35rem;
+    border-radius: 29px;
+}
+
+.sing-in .wrapper,
+.edit-task .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.edit-task .wrapper {
+    height: 90%;
+}
+
+.sing-in .continue,
+.sing-in .sing-in-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 25%;
+}
+
+.sing-in .continue-google,
+.sing-in .continue-instagram,
+.sing-in .type-email,
+.sing-in .type-password {
+    width: 19rem;
+    height: 2.75rem;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sing-in .continue-google a,
+.sing-in .continue-instagram a {
+    padding-left: 1rem;
+}
+
+.sing-in .continue-or {
+    color: white;
+    text-transform: uppercase;
+}
+
+.sing-in .avatar-pic {
+    margin-top: 2rem;
+}
+
+.sing-in .sing-in-form input {
+    width: 90%;
+    height: 80%;
+    text-align: center;
+    font-size: 16px;
+    font-family: "stolzl";
+    font-weight: 300;
+    border-radius: 15px;
+    border: 0;
+    outline-color: #F6A5A5;
+}
+
+.sing-in .sing-in-btn, .edit-task .start-btn  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11rem;
+    height: 2.3rem;
+    background-color: #F6A5A5;
+    border-radius: 15px;
+    margin-top: 2rem;
+}
+
+.sing-in .sing-in-btn a, .edit-task .start-btn a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+
+.sing-in .no-account,
+.sing-in .create-account {
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+    margin: 1.5rem 0 0.5rem 0;
+}
+
+.sing-in .create-account {
+    text-decoration: none;
+    margin: 0;
+}
+
+.sing-in .continue-google a::before {
+    content: " ";
+    background-image: url("../assets/imgs/icon-google.svg");
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-origin: content-box;
+    position: absolute;
+    left: 2rem;
+    bottom: .6rem;
+}
+
+.sing-in .continue-instagram a::before {
+    content: " ";
+    background-image: url("../assets/imgs/icon-instagram-pink.svg");
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-origin: content-box;
+    position: absolute;
+    left: 1.4rem;
+    bottom: .6rem;
+}
+
+/* EDIT TASK */
+
+.edit-task header h1 {
+    position: relative;
+}
+
+.edit-task header h1::after {
+    content: " ";
+    background-image: url(../assets/imgs/edit-emoji.svg);
+    width: 2.5rem;
+    height: 2.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-origin: content-box;
+    position: absolute;
+    right: -3rem;
+    bottom: 0;
+}
+
+.edit-task .background-turquoise {
+    width: 21rem;
+}
+
+.edit-task .wrapper {
+    justify-content: space-around;
+}
+
+.edit-task .flex {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.edit-task .wrapper h3 {
+    color: var(--white);
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+    position: relative;
+    padding-left: 3.5rem;
+}
+
+.edit-task .name-of-activity h2 {
+    margin-bottom: 0;
+}
+
+.edit-task .name-of-activity h3::before {
+    content: " ";
+    background-image: url("../assets/imgs/swimmer-emoji.svg");
+    width: 3.5rem;
+    height: 3.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-origin: content-box;
+    position: absolute;
+    left: 3.4rem;
+    bottom: -1rem;
+}
+
+.edit-task .duration h3::before {
+    content: " ";
+    background-image: url("../assets/imgs/timer-emoji.svg");
+    width: 2.5rem;
+    height: 3rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-origin: content-box;
+    position: absolute;
+    left: .9rem;
+    bottom: -0.8rem;
+}
+
+.edit-task .name-of-activity,
+.edit-task .duration,
+.edit-task .music {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 18rem;
+    height: 9rem;
+    background-color: rgba(255, 255, 255, .23);
+    border-radius: 29px;
+}
+
+
+.edit-task .duration-music {
+    display: flex;
+    justify-content: space-between;
+    width: 18rem;
+    height: 9rem;
+}
+
+.edit-task .duration h3 {
+    text-align: center;
+    padding-left: 3rem;
+    font-size: 1rem;
+}
+
+.edit-task .duration, 
+.edit-task .music  {
+    width: 8rem;
+    height: 8.5rem;
+}
+
+.edit-task .duration-music h2 {
+    margin: .7rem 0;
+    font-size: 1.2rem;
+}
+
+.edit-task .music .spotify-img {
+    background-image: url("../assets/imgs/icon-spotify.svg");
+    width: 2.5rem;
+    height: 3rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-origin: content-box;
+    margin: 0 auto;
+}
+
+.edit-task .start-btn {
+    margin-top: 0;
+}
+
