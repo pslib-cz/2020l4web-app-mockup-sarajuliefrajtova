@@ -48,8 +48,7 @@ html {
 .your-plans .be-productive,
 .your-plans .move-your-body,
 .your-plans .mindfulness,
-.welcome .first-activity,
-.welcome .second-activity,
+.welcome .activity,
 .welcome .add-activity,
 .review-task .background-turquoise {
     width: 21rem;
@@ -59,28 +58,24 @@ html {
     justify-content: center;
     border-radius: 29px;
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.16);
-    margin: 20px auto;
 }
 
-.your-plans .be-productive {
+.your-plans .be-productive, .welcome .activity.glaucous {
     background-color: var(--glaucous);
 }
 
-.your-plans .move-your-body,
-.welcome .first-activity,
-.welcome .second-activity {
+.your-plans .move-your-body, .welcome .activity.turquoise {
     background-color: var(--turquoise);
 }
 
-.your-plans .mindfulness {
+.your-plans .mindfulness, .welcome .pastel-pink {
     background-color: var(--pastelpink);
 }
 
 .your-plans .be-productive>h2,
 .your-plans .move-your-body>h2,
 .your-plans .mindfulness>h2,
-.welcome .first-activity>h2,
-.welcome .second-activity>h2,
+.welcome .activity>h2,
 .review-task .background-turquoise h2,
 .edit-task .background-turquoise h2 {
     font-weight: 500;
@@ -185,12 +180,11 @@ html {
 }
 
 .settings form input {
-    border-radius: 16px;
+    border-radius: 15px;
     border: 0;
     width: 237px;
     height: 32px;
 }
-
 
 /* WELCOME */
 
@@ -211,12 +205,11 @@ html {
     display: flex;
     justify-content: space-around;
     align-items: baseline;
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
 }
 
-.welcome .first-activity,
-.welcome .second-activity {
+.welcome .activity {
     position: relative;
     justify-content: end;
     margin: 0;
@@ -228,13 +221,44 @@ html {
     right: 17px;
 }
 
-.welcome .duration .duration-clocks-img,
-.welcome .unfinished-emoji,
-.review-task .neutral-emoji {
-    width: 100%;
-    height: 4rem;
+.welcome .duration {
+    position: relative;
+}
+
+.welcome .duration-clocks-img, .welcome .done-emoji, .welcome .repeat-icon, .welcome .unfinished-emoji {
+    width: 6.5rem;
+    height: 3rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-origin: content-box;
     margin: 0 auto;
 }
+
+.welcome .duration-clocks-img.pink {
+    background-image: url("../assets/imgs/clock-pink.svg");
+}
+
+.welcome .duration-clocks-img.turquoise {
+    background-image: url("../assets/imgs/clock-turqouise.svg");
+}
+
+.welcome .done-emoji {
+    background-image: url("../assets/imgs/done.svg");
+}
+
+.welcome .repeat-icon {
+    background-image: url("../assets/imgs/icon-repeat.svg");
+}
+
+.welcome .repeat-icon.turquoise {
+    background-image: url("../assets/imgs/icon-ios-repeat-turqouise.svg");
+}
+
+.welcome .unfinished-emoji {
+    background-image: url("../assets/imgs/unfinished.svg");
+}
+
 
 .welcome .duration p,
 .welcome .repeat-activity p,
@@ -243,7 +267,7 @@ html {
 .review-task .not-bad-reaction p,
 .review-task .fablous-reaction p {
     margin: 0;
-    color: white;
+    color: var(--white);
     font-weight: 500;
     letter-spacing: 0.4px;
     text-align: center;
@@ -251,11 +275,6 @@ html {
 
 .welcome .repeat-activity {
     align-items: center;
-}
-
-.welcome .repeat-activity .repeat-icon {
-    width: 4rem;
-    height: 3em;
 }
 
 .neumorphic {
@@ -312,7 +331,6 @@ html {
     height: 3rem;
 }
 
-
 .review-task .paused-activity .second-row {
     flex-direction: column;
     align-items: center;
@@ -324,6 +342,7 @@ html {
     flex-direction: column;
     height: 90%;
     justify-content: space-between;
+    align-items: center;
 }
 
 .review-task .satisfaction,
@@ -350,7 +369,7 @@ html {
 .sing-in .background-turquoise,
 .edit-task .background-turquoise {
     background-color: var(--turquoise);
-    width: 22rem;
+    width: 21rem;
     height: 35rem;
     border-radius: 29px;
 }
@@ -416,7 +435,7 @@ html {
     outline-color: #F6A5A5;
 }
 
-.sing-in .sing-in-btn, .edit-task .start-btn  {
+.sing-in .sing-in-btn, .review-task .repeat-btn, .edit-task .start-btn  {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -427,7 +446,7 @@ html {
     margin-top: 2rem;
 }
 
-.sing-in .sing-in-btn a, .edit-task .start-btn a {
+.sing-in .sing-in-btn a, .review-task .repeat-btn a, .edit-task .start-btn a {
     text-decoration: none;
     color: white;
     font-weight: 300;
@@ -563,7 +582,6 @@ html {
     background-color: rgba(255, 255, 255, .23);
     border-radius: 29px;
 }
-
 
 .edit-task .duration-music {
     display: flex;
