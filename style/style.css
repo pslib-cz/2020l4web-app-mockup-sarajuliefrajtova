@@ -50,7 +50,7 @@ html {
 .your-plans .mindfulness,
 .welcome .activity,
 .welcome .add-activity,
-.review-task .background-turquoise {
+.review-task .background {
     width: 21rem;
     height: 11rem;
     display: flex;
@@ -60,15 +60,16 @@ html {
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.16);
 }
 
-.your-plans .be-productive, .welcome .activity.glaucous {
+.your-plans .be-productive, .welcome .activity.glaucous, .review-task .background.glaucous, .edit-task .background.glaucous, .edit-task .start-btn.glaucous, .review-task .repeat-btn.glaucous    {
     background-color: var(--glaucous);
 }
 
-.your-plans .move-your-body, .welcome .activity.turquoise {
+.your-plans .move-your-body, .welcome .activity.turquoise, .review-task .background.turquoise, .sing-in .background-turquoise,
+.edit-task .background.turquoise   {
     background-color: var(--turquoise);
 }
 
-.your-plans .mindfulness, .welcome .pastel-pink {
+.your-plans .mindfulness, .welcome .pastel-pink, .review-task .background.pink, .edit-task .background.pink, .sing-in .sing-in-btn, .review-task .repeat-btn.pink, .edit-task .start-btn.pink   {
     background-color: var(--pastelpink);
 }
 
@@ -76,8 +77,8 @@ html {
 .your-plans .move-your-body>h2,
 .your-plans .mindfulness>h2,
 .welcome .activity>h2,
-.review-task .background-turquoise h2,
-.edit-task .background-turquoise h2 {
+.review-task .background h2,
+.edit-task .background h2 {
     font-weight: 500;
     color: var(--white);
     text-align: center;
@@ -243,16 +244,24 @@ html {
     background-image: url("../assets/imgs/clock-turqouise.svg");
 }
 
+.welcome .duration-clocks-img.glaucous {
+    background-image: url("../assets/imgs/clock-glaucous.svg");
+}
+
 .welcome .done-emoji {
     background-image: url("../assets/imgs/done.svg");
 }
 
-.welcome .repeat-icon {
-    background-image: url("../assets/imgs/icon-repeat.svg");
-}
-
 .welcome .repeat-icon.turquoise {
     background-image: url("../assets/imgs/icon-ios-repeat-turqouise.svg");
+}
+
+.welcome .repeat-icon.pink {
+    background-image: url("../assets/imgs/icon-repeat-pink.svg");
+}
+
+.welcome .repeat-icon.glaucous  {
+    background-image: url("../assets/imgs/icon-repeat-glaucous.svg");
 }
 
 .welcome .unfinished-emoji {
@@ -310,12 +319,11 @@ html {
     align-items: center;
 }
 
-.review-task .background-turquoise {
+.review-task .background {
     height: 40rem;
-    background-color: var(--turquoise);
 }
 
-.review-task .background-turquoise .satisfaction {
+.review-task .background .satisfaction {
     display: flex;
     flex-direction: column;
 }
@@ -324,7 +332,6 @@ html {
     align-items: baseline;
 }
 
-.review-task .sad-emoji-png,
 .review-task .neutral-emoji-png,
 .review-task .fablous-emoji-png {
     width: 100%;
@@ -350,7 +357,7 @@ html {
 .review-task .paused-activity,
 .review-task .share-results {
     width: 18rem;
-    height: 9.5rem;
+    height: 9.2rem;
     margin: 0 auto;
     background-color: rgba(255, 255, 255, .23);
     border-radius: 21px;
@@ -358,6 +365,8 @@ html {
 
 .review-task .satisfaction .second-row {
     width: 89%;
+    align-items: flex-end;
+    height: 4.5rem;
 }
 
 .review-task .share-results .second-row {
@@ -367,8 +376,7 @@ html {
 /* SING IN */
 
 .sing-in .background-turquoise,
-.edit-task .background-turquoise {
-    background-color: var(--turquoise);
+.edit-task .background {
     width: 21rem;
     height: 35rem;
     border-radius: 29px;
@@ -432,7 +440,7 @@ html {
     font-weight: 300;
     border-radius: 15px;
     border: 0;
-    outline-color: #F6A5A5;
+    outline-color: var(--pastelpink)
 }
 
 .sing-in .sing-in-btn, .review-task .repeat-btn, .edit-task .start-btn  {
@@ -441,9 +449,8 @@ html {
     align-items: center;
     width: 11rem;
     height: 2.3rem;
-    background-color: #F6A5A5;
     border-radius: 15px;
-    margin-top: 2rem;
+    margin-bottom: 0.9rem;
 }
 
 .sing-in .sing-in-btn a, .review-task .repeat-btn a, .edit-task .start-btn a {
@@ -513,7 +520,7 @@ html {
     bottom: 0;
 }
 
-.edit-task .background-turquoise {
+.edit-task .background {
     width: 21rem;
 }
 
@@ -622,3 +629,35 @@ html {
     margin-top: 0;
 }
 
+.review-task .not-really-reaction, .review-task .not-bad-reaction, .review-task .fablous-reaction {
+    position: relative;
+}
+
+.review-task .not-really-reaction a::before, .review-task .not-bad-reaction a::before, .review-task .fablous-reaction a::before  {
+    content: " ";
+    width: 2.5rem;
+    height: 3.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-origin: content-box;
+    position: absolute;
+    bottom: 1rem;
+}
+
+.review-task .not-really-reaction a::before {
+    background-image: url("../assets/imgs/unfinished.svg");
+    left: 1.2rem;
+}
+
+.review-task .not-bad-reaction a::before {
+    background-image: url("../assets/imgs/not-bad.svg");
+}
+
+.review-task .fablous-reaction a::before {
+    background-image: url("../assets/imgs/done.svg");
+}
+
+.review-task .not-bad-reaction a::before, .review-task .fablous-reaction a::before {
+    left: 1rem;
+}
