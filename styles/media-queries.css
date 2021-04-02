@@ -1,0 +1,78 @@
+/* Iphone 5/SE */ 
+
+@media only screen and (width: 320px) {
+
+    .review-task>header {
+        margin: 0;
+    }
+
+    .review-task>header>h1 {
+        font-size: 1.8rem;
+    }
+
+    .review-task .background {
+        width: 18rem;
+        height: 34rem;
+    }
+
+    .review-task .satisfaction, .review-task .paused-activity, .review-task .paused-activity, .review-task .share-results {
+        width: 16rem;
+        height: 7.5rem;
+    }
+
+    .review-task .background h2 {
+        font-size: 1.2rem;
+    }
+
+    .review-task .satisfaction .second-row {
+        height: 4rem;
+    }
+
+    .review-task .not-really-reaction a::before, .review-task .not-bad-reaction a::before, .review-task .fablous-reaction a::before {
+        width: 2rem;
+    }
+
+    .review-task .not-bad-reaction a::before, .review-task .fablous-reaction a::before {
+        left: .8rem;
+    }
+
+    .review-task .not-really-reaction p, .review-task .not-bad-reaction p, .review-task .fablous-reaction p, .review-task .paused-activity .second-row {
+        font-size: 0.8rem;
+    }
+
+    .review-task .paused-activity, .review-task .paused-activity {
+        width: 16rem;
+        height: 7.5rem;
+    }
+
+    .review-task .paused-activity .second-row {
+        height: 4.8rem;
+    }
+
+    .review-task .share-results {
+        width: 16rem;
+        height: 7.5rem;
+    }
+
+    .review-task .share-results .second-row {
+        height: 4rem;
+    }
+}
+
+/* Iphone 6/7/8 Plus */
+
+@media only screen and (width: 414px) {
+
+    .review-task>header {
+        margin: .5rem;
+    }
+
+    .review-task .background {
+        height: 38rem;
+    }
+
+    .review-task .wrapper {
+        height: 94%;
+    }
+
+}

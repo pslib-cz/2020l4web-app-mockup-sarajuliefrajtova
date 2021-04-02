@@ -370,6 +370,10 @@ html {
 }
 
 .review-task .share-results .second-row {
+    height: 4.5rem;
+}
+
+.review-task .share-results .second-row {
     width: 68%;
 }
 
