@@ -1,3 +1,5 @@
+/* REVIEW */
+
 /* Iphone 5/SE */ 
 
 @media only screen and (width: 320px) {
@@ -6,11 +8,13 @@
         margin: 0;
     }
 
-    .review-task>header>h1 {
+    .review-task>header>h1,
+    .settings>main>h1 {
         font-size: 1.8rem;
     }
 
-    .review-task .background {
+    .review-task .background,
+    .settings .background-pink {
         width: 18rem;
         height: 34rem;
     }
@@ -75,4 +79,180 @@
         height: 94%;
     }
 
+}
+
+/* Ipad */ 
+
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
+
+    .review-task .background,
+    .settings .background-pink {
+        width: 40rem;
+        height: 52rem;
+    }
+
+    .review-task .satisfaction, .review-task .paused-activity, .review-task .paused-activity, .review-task .share-results {
+        width: 33rem;
+        height: 12.2rem;
+    }
+
+    .review-task .background .satisfaction {
+        justify-content: center;
+    }
+
+    .review-task .background h2 {
+        margin: 0;
+    }
+
+    .review-task .background .paused-activity h2 {
+        margin-bottom: 2rem;
+    }
+
+    .review-task .satisfaction .second-row {
+        width: 76%;
+        align-items: flex-end;
+        height: 6.5rem;
+    }
+
+    .review-task .paused-activity {
+        justify-content: center;
+    }
+
+    .review-task .paused-activity .second-row {
+        height: 5rem;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .review-task .share-results {
+        justify-content: center;
+    } 
+
+    .review-task .background .share-results h2 {
+        margin-bottom: 1rem;
+    }
+
+    .review-task .share-results .second-row {
+        align-items: flex-end;
+        width: 68%;
+        height: 4.5rem;
+    }
+}
+
+/* Ipad Pro */ 
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+
+    .your-plans>main>h1, .settings>main>h1, .welcome>header>h1, .review-task>header>h1, .sing-in>main>h1, .edit-task>header>h1 {
+        font-size: 3.5rem;
+    }
+
+    .review-task .background {
+        width: 56rem;
+        height: 71rem;
+    }
+
+    .review-task .satisfaction, .review-task .paused-activity, .review-task .paused-activity, .review-task .share-results {
+        width: 48rem;
+        height: 17.2rem;
+    }
+
+    .your-plans .be-productive>h2, .your-plans .move-your-body>h2, .your-plans .mindfulness>h2, .welcome .activity>h2, .review-task .background h2, .edit-task .background h2 {
+        font-size: 2.4rem;
+    }
+
+    .review-task .satisfaction .second-row {
+        width: 77%;
+        height: 9.5rem;
+    }
+
+    .welcome .duration p, .welcome .repeat-activity p, .welcome .done-unifinished-activity p, .review-task .not-really-reaction p, .review-task .not-bad-reaction p, .review-task .fablous-reaction p {
+        font-size: 1.6rem;
+    }
+
+    .review-task .not-really-reaction a::before, .review-task .not-bad-reaction a::before, .review-task .fablous-reaction a::before {
+        width: 4.5rem;
+        height: 5.5rem;
+        bottom: 2rem;
+    }
+
+    .review-task .paused-activity .second-row {
+        height: 8rem;
+    }
+
+    .review-task .paused-activity .second-row img {
+        width: 2rem;
+    }
+
+    .review-task .paused-activity .second-row p {
+        font-size: 1.6rem;
+    }
+
+    .review-task .share-results .second-row {
+        height: 8.5rem;
+        align-items: center;
+    }
+
+    .review-task .share-results .second-row img {
+        width: 4rem;
+    }
+
+    .sing-in .sing-in-btn, .review-task .repeat-btn, .edit-task .start-btn {
+        width: 19rem;
+        height: 3.3rem;
+        border-radius: 22px;
+    }
+
+    .sing-in .sing-in-btn a, .review-task .repeat-btn a, .edit-task .start-btn a {
+        font-size: 1.5rem;
+    }
+}
+
+
+/* SETTINGS */
+
+@media only screen and (width: 320px) {
+
+    .settings .background-pink {
+        margin-bottom: 1rem;
+        height: 30rem;
+    }
+
+}
+
+@media only screen and (width: 414px) {
+
+    .settings .background-pink {
+        margin-bottom: 1rem;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
+
+    .settings .avatar {
+        width: 4rem;
+    }
+
+    .settings .hamburger-menu {
+        width: 5rem;
+        height: 3rem;
+    }
+    
+    .settings .background-pink {
+        height: 44rem;
+    }
+
+    .settings .background-pink>form {
+        height: 66%;
+    }
+
+    .settings form label {
+        font-size: 2rem;
+    }
+
+    .settings form input {
+        width: 32rem;
+    }
 }

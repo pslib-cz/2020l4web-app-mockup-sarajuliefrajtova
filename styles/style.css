@@ -319,6 +319,15 @@ html {
     align-items: center;
 }
 
+.review-task .hamburger-menu {
+    background-image: url("../assets/imgs/hamburger-menu.svg");
+    width: 3rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
 .review-task .background {
     height: 40rem;
 }
@@ -361,6 +370,8 @@ html {
     margin: 0 auto;
     background-color: rgba(255, 255, 255, .23);
     border-radius: 21px;
+        display: flex;
+    flex-direction: column;
 }
 
 .review-task .satisfaction .second-row {
