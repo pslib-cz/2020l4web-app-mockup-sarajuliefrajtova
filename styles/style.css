@@ -319,7 +319,8 @@ html {
     align-items: center;
 }
 
-.review-task .hamburger-menu {
+.review-task .hamburger-menu,
+.settings .hamburger-menu{
     background-image: url("../assets/imgs/hamburger-menu.svg");
     width: 3rem;
     height: 2rem;

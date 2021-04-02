@@ -61,6 +61,11 @@
     .review-task .share-results .second-row {
         height: 4rem;
     }
+
+    .settings .background-pink {
+        margin-bottom: 1rem;
+        height: 30rem;
+    }
 }
 
 /* Iphone 6/7/8 Plus */
@@ -77,6 +82,10 @@
 
     .review-task .wrapper {
         height: 94%;
+    }
+
+    .settings .background-pink {
+        margin-bottom: 1rem;
     }
 
 }
@@ -137,6 +146,35 @@
         align-items: flex-end;
         width: 68%;
         height: 4.5rem;
+    }
+    
+    .settings .avatar {
+        width: 4rem;
+    }
+
+    .settings .hamburger-menu {
+        height: 2.8rem;
+        width: 5rem;
+    }
+
+    .settings>main>h1 {
+        font-size: 3rem;
+    }
+    
+    .settings .background-pink {
+        height: 44rem;
+    }
+
+    .settings .background-pink>form {
+        height: 66%;
+    }
+
+    .settings form label {
+        font-size: 2rem;
+    }
+
+    .settings form input {
+        width: 32rem;
     }
 }
 
@@ -206,53 +244,5 @@
 
     .sing-in .sing-in-btn a, .review-task .repeat-btn a, .edit-task .start-btn a {
         font-size: 1.5rem;
-    }
-}
-
-
-/* SETTINGS */
-
-@media only screen and (width: 320px) {
-
-    .settings .background-pink {
-        margin-bottom: 1rem;
-        height: 30rem;
-    }
-
-}
-
-@media only screen and (width: 414px) {
-
-    .settings .background-pink {
-        margin-bottom: 1rem;
-    }
-
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1366px) {
-
-    .settings .avatar {
-        width: 4rem;
-    }
-
-    .settings .hamburger-menu {
-        width: 5rem;
-        height: 3rem;
-    }
-    
-    .settings .background-pink {
-        height: 44rem;
-    }
-
-    .settings .background-pink>form {
-        height: 66%;
-    }
-
-    .settings form label {
-        font-size: 2rem;
-    }
-
-    .settings form input {
-        width: 32rem;
     }
 }
