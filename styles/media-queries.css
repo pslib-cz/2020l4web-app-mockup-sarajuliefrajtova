@@ -66,6 +66,37 @@
         margin-bottom: 1rem;
         height: 30rem;
     }
+
+    .settings .done-btn img {
+        width: 3.9rem;
+    }
+
+    .sing-in .background-turquoise {    
+        height: 32rem;
+        margin-bottom: 1rem;
+    }
+
+    .sing-in .background-turquoise {
+        width: 19rem;
+    }
+    
+    .sing-in .continue-google, .sing-in .continue-instagram, .sing-in .type-email, .sing-in .type-password {
+        width: 17rem;
+        margin: 0 auto;
+    }
+
+    .sing-in .continue-google a::before {
+        left: 1.8rem;
+    }
+
+    .sing-in .continue-instagram a::before {
+        left: 1rem;
+    }
+
+    .sing-in .continue-google a, .sing-in .continue-instagram a, .sing-in .sing-in-form input {
+        font-size: .9rem;
+    }
+
 }
 
 /* Iphone 6/7/8 Plus */
@@ -88,6 +119,15 @@
         margin-bottom: 1rem;
     }
 
+    .sing-in .background-turquoise {    
+        height: 32rem;
+        margin-bottom: 1rem;
+    }
+
+    .sing-in .sing-in-btn {
+        margin: 1rem 0;
+    }
+
 }
 
 /* Ipad */ 
@@ -95,9 +135,14 @@
 @media only screen and (min-width: 768px) and (max-width: 1366px) {
 
     .review-task .background,
-    .settings .background-pink {
+    .settings .background-pink, 
+    .sing-in .background-turquoise {
         width: 40rem;
         height: 52rem;
+    }
+
+    .sing-in .background-turquoise {
+        height: 48rem;
     }
 
     .review-task .satisfaction, .review-task .paused-activity, .review-task .paused-activity, .review-task .share-results {
@@ -176,19 +221,82 @@
     .settings form input {
         width: 32rem;
     }
+
+    .sing-in .avatar-pic {
+        width: 4.5rem;
+    }
+
+    .sing-in>main>h1 {
+        font-size: 2.5rem;
+    }
+
+    .sing-in .continue-google, .sing-in .continue-instagram, .sing-in .type-email, .sing-in .type-password {
+        width: 30rem;
+        height: 3.5rem;
+        border-radius: 22px;
+    }
+
+    .sing-in .continue-google a, .sing-in .continue-instagram a, .sing-in .sing-in-form input {
+        font-size: 1.2rem;
+    }
+
+    .sing-in .continue-google a::before, .sing-in .continue-instagram a::before {
+        bottom: 1rem;
+    }
+
+    .sing-in .continue-google a::before {
+        left: 6rem;
+    }
+
+    .sing-in .continue-instagram a::before {
+        left: 5.4rem;
+    }
+
+    .sing-in .sing-in-btn {
+        width: 12rem;
+        height: 2.5rem;
+        border-radius: 2rem;
+    }
+
+    .sing-in .sing-in-btn a {
+        font-size: 1.2rem;
+    }
 }
 
 /* Ipad Pro */ 
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
 
+    .settings .avatar {
+        width: 5rem;
+    }
+    
     .your-plans>main>h1, .settings>main>h1, .welcome>header>h1, .review-task>header>h1, .sing-in>main>h1, .edit-task>header>h1 {
         font-size: 3.5rem;
     }
 
-    .review-task .background {
+    .review-task .background,
+    .settings .background-pink,
+    .sing-in .background-turquoise {
         width: 56rem;
         height: 71rem;
+    }
+
+    .settings .background-pink {
+        height: 63rem;
+    }
+
+    .settings .background-pink>form {
+        height: 70%;
+    }
+
+    .settings form input {
+        width: 43rem;
+        height: 3rem;
+    }
+
+    .settings .done-btn img {
+        width: 6rem;
     }
 
     .review-task .satisfaction, .review-task .paused-activity, .review-task .paused-activity, .review-task .share-results {
@@ -245,4 +353,50 @@
     .sing-in .sing-in-btn a, .review-task .repeat-btn a, .edit-task .start-btn a {
         font-size: 1.5rem;
     }
+
+    .sing-in .avatar-pic {
+        width: 5.5rem;
+    }
+
+    .sing-in .background-turquoise {
+        height: 65rem;
+    }
+
+    .sing-in .continue, .sing-in .sing-in-form {
+        height: 30%;
+    }
+
+    .sing-in .continue-google, .sing-in .continue-instagram, .sing-in .type-email, .sing-in .type-password {
+        width: 44rem;
+        height: 4.5rem;
+        border-radius: 35px;
+    }
+
+    .sing-in .continue-google a, .sing-in .continue-instagram a, .sing-in .sing-in-form input {
+        font-size: 1.5rem;
+    }
+
+    .sing-in .continue-google a::before {
+        left: 9.8rem;
+    }
+
+    .sing-in .continue-instagram a::before {
+        left: 9rem;
+    }
+    
+    .sing-in .continue-google a::before, .sing-in .continue-instagram a::before {
+        bottom: 1rem;
+    }
+
+    .sing-in .continue-google a::before, .sing-in .continue-instagram a::before {
+        width: 2.5rem;
+        height: 2.3rem;
+    }
+
+    .sing-in .sing-in-btn {
+        width: 19rem;
+        height: 3.3rem;
+        border-radius: 22px;
+    }
+
 }

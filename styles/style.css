@@ -398,6 +398,10 @@ html {
     border-radius: 29px;
 }
 
+.sing-in .background-turquoise {
+    margin-bottom: 1rem;
+}
+
 .sing-in .wrapper,
 .edit-task .wrapper {
     display: flex;
@@ -467,6 +471,10 @@ html {
     height: 2.3rem;
     border-radius: 15px;
     margin-bottom: 0.9rem;
+}
+
+.sing-in .sing-in-btn {
+    margin: 1rem 0;
 }
 
 .sing-in .sing-in-btn a, .review-task .repeat-btn a, .edit-task .start-btn a {
