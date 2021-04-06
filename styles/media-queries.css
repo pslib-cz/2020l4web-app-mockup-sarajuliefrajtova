@@ -97,6 +97,122 @@
         font-size: .9rem;
     }
 
+    .welcome>header>h1 {
+        font-size: 2rem;
+    }
+
+    .welcome .activity, .welcome .add-activity {
+        width: 19rem;
+    }
+
+    .welcome .second-row {
+        align-items: center;
+        width: 92%;
+        height: 4rem;
+    }
+
+    .welcome .duration-clocks-img, .welcome .done-emoji, .welcome .repeat-icon, .welcome .unfinished-emoji {
+        width: 5.5rem;
+        height: 2.5rem;
+    }
+
+    .welcome .duration p, .welcome .repeat-activity p, .welcome .done-unifinished-activity p {
+        font-size: .8rem;
+    }
+
+    .neumorphic {
+        width: 16.3rem;
+    }
+
+    .your-plans .be-productive, .your-plans .move-your-body, .your-plans .mindfulness {
+        width: 19rem;
+    }
+
+    .your-plans .be-productive .second-row, .your-plans .move-your-body .second-row, .your-plans .mindfulness .second-row {
+        width: 84%;
+    }
+
+    .edit-task>header {
+        width: 96%;
+    }
+
+    .edit-task header h1 {
+        font-size: 1.8rem;
+    }
+
+    .edit-task .background {
+        width: 19rem;
+    }
+
+    .edit-task .name-of-activity, 
+    .edit-task .duration-music {
+        width: 17rem;
+    }
+}
+
+@media only screen and (min-width: 568px) and (max-width: 736px) and (orientation: landscape) {
+
+    .edit-task .background {
+        width: 32rem;
+    }
+
+    .edit-task .name-of-activity, 
+    .edit-task .duration, 
+    .edit-task .music,
+    .edit-task .duration-music {
+        width: 28rem;
+        height: 10rem;
+    }
+
+    .edit-task .duration h3 {
+        padding-left: 2rem;
+    }
+
+    .edit-task .duration h3::before {
+        left: 2.9rem;
+    }
+
+    .edit-task .duration, 
+    .edit-task .music {
+        width: 13rem;
+        height: 8.5rem;
+    }
+}
+
+@media only screen and (min-width: 667px) and (max-width: 736px) and (orientation: landscape) {
+    
+    .edit-task .background {
+        width: 36rem;
+    }
+
+    .edit-task .name-of-activity, .edit-task .duration-music {
+        width: 32rem;
+        height: 10rem;
+    }
+
+    .edit-task .duration-music {
+        align-items: center;
+    }
+
+    .edit-task .wrapper h3 {
+        padding-left: 2.5rem;
+    }
+
+    .edit-task .name-of-activity h3::before {
+        left: 9.8rem;
+    }
+
+    .edit-task .duration, .edit-task .music {
+        width: 14rem;
+        height: 8.5rem;
+    }
+
+    .edit-task .duration h3::before {
+        width: 2.8rem;
+        height: 4rem;
+        left: 3.3rem;
+        bottom: -1.2rem;
+    }
 }
 
 /* Iphone 6/7/8 Plus */
@@ -136,7 +252,8 @@
 
     .review-task .background,
     .settings .background-pink, 
-    .sing-in .background-turquoise {
+    .sing-in .background-turquoise,
+    .edit-task .background {
         width: 40rem;
         height: 52rem;
     }
@@ -193,7 +310,8 @@
         height: 4.5rem;
     }
     
-    .settings .avatar {
+    .settings .avatar,
+    .your-plans .avatar {
         width: 4rem;
     }
 
@@ -226,8 +344,10 @@
         width: 4.5rem;
     }
 
-    .sing-in>main>h1 {
-        font-size: 2.5rem;
+    .sing-in>main>h1,
+    .welcome>header>h1,
+    .edit-task>header>h1 {
+        font-size: 3rem;
     }
 
     .sing-in .continue-google, .sing-in .continue-instagram, .sing-in .type-email, .sing-in .type-password {
@@ -252,14 +372,149 @@
         left: 5.4rem;
     }
 
-    .sing-in .sing-in-btn {
+    .sing-in .sing-in-btn,
+    .edit-task .start-btn {
         width: 12rem;
         height: 2.5rem;
         border-radius: 2rem;
     }
 
-    .sing-in .sing-in-btn a {
+    .sing-in .sing-in-btn a,
+    .edit-task .start-btn a {
         font-size: 1.2rem;
+    }
+
+    .welcome>main {
+        margin-bottom: 1rem;
+        height: 43rem;
+    }
+
+    .welcome .activity, .welcome .add-activity {
+        width: 36rem;
+        height: 13rem;
+    }
+
+    .neumorphic {
+        width: 33rem;
+        height: 10rem;
+    }
+
+    .welcome .activity>h2 {
+        font-size: 1.8rem;
+    }
+
+    .welcome .trash-icon {
+        width: 2.5rem;
+    }
+
+    .welcome .second-row {
+        height: 6rem;
+        align-items: center;
+    }
+
+    .welcome .duration-clocks-img, .welcome .done-emoji, .welcome .repeat-icon, .welcome .unfinished-emoji {
+        height: 4rem;
+    }
+
+    .welcome .duration p, .welcome .repeat-activity p, .welcome .done-unifinished-activity p {
+        font-size: 1.2rem;
+    }
+
+    .your-plans .hamburger-menu-active,
+    .edit-task .hamburger-menu {
+        width: 4rem;
+        height: 3rem;
+    }
+
+    .your-plans>main>h1 {
+        font-size: 2.5rem;
+    }
+
+    .your-plans .be-productive, .your-plans .move-your-body, .your-plans .mindfulness {
+        width: 39rem;
+        height: 15rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .your-plans .be-productive>h2, .your-plans .move-your-body>h2, .your-plans .mindfulness>h2 {
+        font-size: 1.9rem;
+    }
+
+    .your-plans .be-productive .second-row, .your-plans .move-your-body .second-row, .your-plans .mindfulness .second-row {
+        height: 10rem;
+    }
+
+    .work-svg, .workout-svg, .meditation-svg {
+        width: 11rem;
+    }
+
+    .your-plans .be-productive .circle, .your-plans .move-your-body .circle, .your-plans .mindfulness .circle {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .your-plans .done-tasks p {
+        font-size: 1.2rem;
+        margin: 0.8rem 0 0;
+    }
+
+    .edit-task header h1::after {
+        width: 3.5rem;
+        height: 3.5rem;
+        right: -4.5rem;
+    }
+
+    .edit-task .name-of-activity,
+    .edit-task .duration-music {
+        width: 35rem;
+        height: 12rem;
+    }
+
+    .edit-task .wrapper h3 {
+        font-size: 1.8rem;
+        padding-left: 3rem;
+    }
+
+    .edit-task .name-of-activity h3::before {
+        width: 5.2rem;
+        height: 5.7rem;
+        left: 8.9rem;
+        bottom: -1.8rem;
+    }
+
+    .edit-task .duration h3::before {
+        width: 4.5rem;
+        height: 5rem;
+        left: 1.8rem;
+        bottom: -1.2rem;
+    }
+
+    .edit-task .duration, 
+    .edit-task .music {
+        width: 16rem;
+        height: 11.5rem;
+    }
+
+    .edit-task .name-of-activity h2,
+    .edit-task .duration-music h2 {
+        font-size: 2rem;
+    }
+
+    .edit-task .duration h3 {
+        padding-left: 4.2rem;
+        font-size: 1.8rem;
+    }
+    
+    .edit-task .music .spotify-img {
+        width: 4.5rem;
+        height: 4rem;
+        margin: 1rem auto;
+    }
+
+    .edit-task .flex {
+        height: 63%;
     }
 }
 
@@ -277,7 +532,8 @@
 
     .review-task .background,
     .settings .background-pink,
-    .sing-in .background-turquoise {
+    .sing-in .background-turquoise,
+    .edit-task .background {
         width: 56rem;
         height: 71rem;
     }
@@ -397,6 +653,119 @@
         width: 19rem;
         height: 3.3rem;
         border-radius: 22px;
+    }
+
+    .welcome .hamburger-menu {
+        height: 3rem;
+    }
+
+    .welcome>main {
+        height: 61rem;
+    }
+
+    .your-plans .hamburger-menu-active {
+        width: 6rem;
+        height: 4rem;
+    }
+
+    .your-plans .be-productive, .your-plans .move-your-body, .your-plans .mindfulness, .welcome .activity, .welcome .add-activity {
+        width: 52rem;
+        height: 20rem;
+        border-radius: 40px;
+    }
+
+    .welcome .activity>h2 {
+        font-size: 2.4rem;
+    }
+
+    .welcome .trash-icon {
+        width: 3.5rem;
+    }
+
+    .welcome .second-row {
+        height: 9rem;
+        align-items: center;
+    }
+
+    .welcome .duration-clocks-img, .welcome .done-emoji, .welcome .repeat-icon, .welcome .unfinished-emoji {
+        height: 6rem;
+    }
+
+    .neumorphic {
+        width: 49.5rem;
+        height: 14rem;
+    }
+
+    .welcome .plus-btn img {
+        width: 6rem;
+    }
+    
+    .your-plans .done-tasks p {
+        font-size: 1.8rem;
+        margin: 0.8rem 0 0;
+    }
+
+    .your-plans .avatar {
+        width: 6rem;
+    }
+
+    .your-plans .be-productive .circle, .your-plans .move-your-body .circle, .your-plans .mindfulness .circle {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .your-plans .done-tasks .circle p {
+        font-size: 2rem;
+    }
+
+    .edit-task .hamburger-menu {
+        width: 5rem;
+        height: 4rem;
+    }
+
+    .edit-task header h1::after {
+        width: 4.5rem;
+        height: 4.5rem;
+        right: -5.5rem;
+    }
+
+    .edit-task .name-of-activity, 
+    .edit-task .duration-music {
+        width: 48rem;
+        height: 16rem;
+    }
+
+    .edit-task .duration, .edit-task .music {
+        width: 22rem;
+        height: 14.5rem;
+    }
+
+    .edit-task .background h2 {
+        font-size: 2.9rem;
+    }
+
+    .edit-task .wrapper h3 {
+        font-size: 2.2rem;
+        padding-left: 3rem;
+    }
+
+    .edit-task .name-of-activity h3::before {
+        width: 5.2rem;
+        height: 5.7rem;
+        left: 13.9rem;
+        bottom: -1.2rem;
+    }
+
+    .edit-task .duration h3 {
+        padding-left: 4.2rem;
+        font-size: 2.2rem;
+    }
+
+    .edit-task .duration h3::before {
+        width: 5.5rem;
+        height: 6rem;
+        left: 3.5rem;
+        bottom: -1.5rem;
     }
 
 }

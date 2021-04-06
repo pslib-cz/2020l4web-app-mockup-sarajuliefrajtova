@@ -22,6 +22,15 @@ html {
 
 /* YOUR PLANS */
 
+.your-plans .hamburger-menu-active {
+    background-image: url("../assets/imgs/hambureger-menu-active.svg");
+    width: 3rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
 .your-plans>header,
 .settings>header,
 .welcome>header,
@@ -58,6 +67,12 @@ html {
     justify-content: center;
     border-radius: 29px;
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.16);
+}
+
+.your-plans .be-productive,
+.your-plans .move-your-body,
+.your-plans .mindfulness {
+    margin-bottom: 2rem;
 }
 
 .your-plans .be-productive, .welcome .activity.glaucous, .review-task .background.glaucous, .edit-task .background.glaucous, .edit-task .start-btn.glaucous, .review-task .repeat-btn.glaucous    {
@@ -188,6 +203,10 @@ html {
 }
 
 /* WELCOME */
+
+.welcome {
+    margin-bottom: 1rem;
+}
 
 .welcome>header,
 .edit-task>header,
@@ -320,7 +339,9 @@ html {
 }
 
 .review-task .hamburger-menu,
-.settings .hamburger-menu{
+.settings .hamburger-menu,
+.edit-task .hamburger-menu,
+.welcome .hamburger-menu {
     background-image: url("../assets/imgs/hamburger-menu.svg");
     width: 3rem;
     height: 2rem;
@@ -396,6 +417,7 @@ html {
     width: 21rem;
     height: 35rem;
     border-radius: 29px;
+    margin-bottom: 1rem;
 }
 
 .sing-in .background-turquoise {
