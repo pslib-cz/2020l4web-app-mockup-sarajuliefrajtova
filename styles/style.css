@@ -566,6 +566,10 @@ html {
     bottom: 0;
 }
 
+.edit-task.during header h1::after {
+    content: none;
+}
+
 .edit-task .background {
     width: 21rem;
 }
@@ -672,8 +676,30 @@ html {
 }
 
 .edit-task .timer {
-    background-image: url(../assets/imgs/count-down.svg);
+    background-image: url("../assets/imgs/count-down.svg");
     width: 10.5rem;
+    height: 9.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-origin: content-box;
+    margin: 1rem auto;
+}
+
+.edit-task .timer-during {
+    background-image: url("../assets/imgs/countdown-in-progress.svg");
+    width: 10.5rem;
+    height: 9.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-origin: content-box;
+    margin: 1rem auto;
+}
+
+.edit-task .timer-done {
+    background-image: url("../assets/imgs/count-down-done.svg");
+    width: 8.5rem;
     height: 9.5rem;
     background-repeat: no-repeat;
     background-size: contain;

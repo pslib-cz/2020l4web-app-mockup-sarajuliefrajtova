@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <g id="Group_66" data-name="Group 66" transform="translate(-249 -681)">
+    <g id="Group_147" data-name="Group 147" transform="translate(209 175)">
+      <path id="Path_227" data-name="Path 227" d="M60,120a60,60,0,1,1,60-60A59.95,59.95,0,0,1,60,120ZM60,14.118A45.882,45.882,0,1,0,105.882,60,45.791,45.791,0,0,0,60,14.118Z" transform="translate(40 506)" fill="#f6a5a5"/>
+    </g>
+    <text id="DONE_" data-name="DONE!" transform="translate(277 748)" fill="#fff" font-size="20" font-family="Stolzl-Medium, Stolzl" font-weight="500"><tspan x="0" y="0">DONE!</tspan></text>
+  </g>
+</svg>
