@@ -148,9 +148,13 @@
     .edit-task .duration-music {
         width: 17rem;
     }
+
+    .edit-task .background.pink .name-of-activity h3::before {
+        left: 3.1rem;
+    }
 }
 
-@media only screen and (min-width: 568px) and (max-width: 1336px) and (orientation: landscape) {
+@media only screen and (width: 568px) and (orientation: landscape) {
 
     .edit-task .background {
         width: 32rem;
@@ -177,9 +181,21 @@
         width: 13rem;
         height: 8.5rem;
     }
+
+    .edit-task .name-of-activity h3::before {
+        left: 8.4rem;
+    }
+
+    .edit-task .background.glaucous .name-of-activity h3::before {
+        left: 7.1rem;
+    }
+
+    .edit-task .background.pink .name-of-activity h3::before {
+        left: 8.1rem;
+    }
 }
 
-@media only screen and (min-width: 667px) and (max-width: 1336px) and (orientation: landscape) {
+@media only screen and (width: 667px) and (orientation: landscape) {
     
     .edit-task .background {
         width: 36rem;
@@ -212,6 +228,14 @@
         height: 4rem;
         left: 3.3rem;
         bottom: -1.2rem;
+    }
+
+    .edit-task .background.glaucous .name-of-activity h3::before {
+        left: 9.1rem;
+    }
+
+    .edit-task .background.pink .name-of-activity h3::before {
+        left: 10.1rem;
     }
 }
 
@@ -270,6 +294,30 @@
 
     .sing-in .sing-in-btn {
         margin: 1rem 0;
+    }
+
+}
+
+/* Iphone X landscape */
+
+@media only screen and (width: 812px) and (orientation: landscape) { 
+
+    .edit-task.during .background.glaucous .name-of-activity h3::before, .edit-task .background.glaucous .name-of-activity h3::before {
+        left: 8.1rem;
+        bottom: -.9rem;
+    }
+
+    .edit-task .background.pink .name-of-activity h3::before {
+        width: 4.5rem;
+        height: 4rem;
+        left: 8.5rem;
+        bottom: -.8rem;
+    }
+
+    .edit-task.during .review-btn, .edit-task.during .cancel-btn {
+        width: 11rem;
+        height: 3rem;
+        border-radius: 21px;
     }
 
 }
@@ -544,7 +592,37 @@
     .edit-task .flex {
         height: 63%;
     }
+
+    .edit-task .background.glaucous .name-of-activity h3::before { 
+        left: 8.1rem;
+        bottom: -.9rem;
+    }
+
+    .edit-task .background.pink .name-of-activity h3::before {
+        width: 4.5rem;
+        height: 4.5rem;
+        left: 8.8rem;
+    }
+
+    .edit-task.during .review-btn, .edit-task.during .cancel-btn {
+        width: 13rem;
+    }
+
+    .edit-task.during .review-btn, .edit-task.during .cancel-btn {
+        height: 3.3rem;
+        border-radius: 25px;
+    }
+
+    .edit-task.during .review-btn a, .edit-task.during .cancel-btn a {
+        font-size: 1.3rem;
+    }
+
+    .edit-task .timer-during {
+        width: 11.5rem;
+        height: 10.5rem;
+    }
 }
+
 
 /* Ipad Pro */ 
 
@@ -794,6 +872,24 @@
         height: 6rem;
         left: 3.5rem;
         bottom: -1.5rem;
+    }
+
+    .edit-task .timer, .edit-task .timer-during, .edit-task .timer-done {
+        width: 13.5rem; 
+        height: 13.5rem;
+    }
+
+    .edit-task .background.glaucous .name-of-activity h3::before {
+        width: 4.5rem;
+        height: 5.5rem;
+        left: 12rem;
+        bottom: -1.5rem;
+    }
+
+    .edit-task .background.pink .name-of-activity h3::before {
+        width: 5.5rem;
+        height: 5.5rem;
+        left: 12.8rem;
     }
 
 }

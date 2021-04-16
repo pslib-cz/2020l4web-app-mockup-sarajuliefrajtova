@@ -75,7 +75,7 @@ html {
     margin-bottom: 2rem;
 }
 
-.your-plans .be-productive, .welcome .activity.glaucous, .review-task .background.glaucous, .edit-task .background.glaucous, .edit-task .start-btn.glaucous, .review-task .repeat-btn.glaucous    {
+.your-plans .be-productive, .welcome .activity.glaucous, .review-task .background.glaucous, .edit-task .background.glaucous, .edit-task .start-btn.glaucous, .review-task .repeat-btn.glaucous, .edit-task.during .review-btn.glaucous, .edit-task.during .cancel-btn.glaucous {
     background-color: var(--glaucous);
 }
 
@@ -84,7 +84,7 @@ html {
     background-color: var(--turquoise);
 }
 
-.your-plans .mindfulness, .welcome .pastel-pink, .review-task .background.pink, .edit-task .background.pink, .sing-in .sing-in-btn, .review-task .repeat-btn.pink, .edit-task .start-btn.pink   {
+.your-plans .mindfulness, .welcome .pastel-pink, .review-task .background.pink, .edit-task .background.pink, .sing-in .sing-in-btn, .review-task .repeat-btn.pink, .edit-task .start-btn.pink, .edit-task.during .review-btn.pink, .edit-task.during .cancel-btn {
     background-color: var(--pastelpink);
 }
 
@@ -287,7 +287,6 @@ html {
     background-image: url("../assets/imgs/unfinished.svg");
 }
 
-
 .welcome .duration p,
 .welcome .repeat-activity p,
 .welcome .done-unifinished-activity p,
@@ -485,7 +484,7 @@ html {
     outline-color: var(--pastelpink)
 }
 
-.sing-in .sing-in-btn, .review-task .repeat-btn, .edit-task .start-btn  {
+.sing-in .sing-in-btn, .review-task .repeat-btn, .edit-task .start-btn, .edit-task.during .review-btn, .edit-task.during .cancel-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -495,11 +494,22 @@ html {
     margin-bottom: 0.9rem;
 }
 
+.edit-task.during .buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+}
+
+.edit-task.during .review-btn, .edit-task.during .cancel-btn {
+    width: 8rem;
+}
+
 .sing-in .sing-in-btn {
     margin: 1rem 0;
 }
 
-.sing-in .sing-in-btn a, .review-task .repeat-btn a, .edit-task .start-btn a {
+.sing-in .sing-in-btn a, .review-task .repeat-btn a, .edit-task .start-btn a, .edit-task.during .review-btn a, .edit-task.during .cancel-btn a {
     text-decoration: none;
     color: white;
     font-weight: 300;
@@ -592,7 +602,11 @@ html {
     font-weight: 400;
     letter-spacing: 0.05rem;
     position: relative;
-    padding-left: 3.5rem;
+    padding-left: 3.2rem;
+}
+
+.edit-task .background.pink .wrapper h3 {
+    padding-left: 3rem;
 }
 
 .edit-task .name-of-activity h2 {
@@ -687,7 +701,6 @@ html {
 }
 
 .edit-task .timer-during {
-    background-image: url("../assets/imgs/countdown-in-progress.svg");
     width: 10.5rem;
     height: 9.5rem;
     background-repeat: no-repeat;
@@ -697,8 +710,15 @@ html {
     margin: 1rem auto;
 }
 
+.edit-task .timer-during.pink {
+    background-image: url("../assets/imgs/countdown-progress-pink.svg");
+}
+
+.edit-task .timer-during.glaucous {
+    background-image: url("../assets/imgs/countdown-progress-glaucous.svg");
+}
+
 .edit-task .timer-done {
-    background-image: url("../assets/imgs/count-down-done.svg");
     width: 8.5rem;
     height: 9.5rem;
     background-repeat: no-repeat;
@@ -707,6 +727,44 @@ html {
     background-origin: content-box;
     margin: 1rem auto;
 }
+
+.edit-task .timer-done.pink{
+    background-image: url("../assets/imgs/count-down-done-pink.svg");
+}
+
+.edit-task .timer-done.glaucous {
+    background-image: url("../assets/imgs/count-down-done-glaucous.svg");
+}
+
+.edit-task .background.glaucous .name-of-activity h3::before {
+    content: " ";
+    background-image: url("../assets/imgs/email.svg");
+    width: 3.5rem;
+    height: 3.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-origin: content-box;
+    position: absolute;
+    left: 2.1rem;
+    bottom: -1rem;
+}
+
+.edit-task .background.pink .name-of-activity h3::before {
+    content: " ";
+    background-image: url("../assets/imgs/meditation-icon.svg");
+    width: 3.5rem;
+    height: 3.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-origin: content-box;
+    position: absolute;
+    left: 3.1rem;
+    bottom: -1rem;
+}
+
+/* REVIEW */
 
 .edit-task .start-btn {
     margin-top: 0;
