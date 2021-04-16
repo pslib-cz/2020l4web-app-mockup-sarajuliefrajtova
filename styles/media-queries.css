@@ -1,6 +1,6 @@
 /* REVIEW */
 
-/* Iphone 5/SE */ 
+/* Iphone 5/SE */
 
 @media only screen and (width: 320px) {
 
@@ -19,7 +19,10 @@
         height: 34rem;
     }
 
-    .review-task .satisfaction, .review-task .paused-activity, .review-task .paused-activity, .review-task .share-results {
+    .review-task .satisfaction,
+    .review-task .paused-activity,
+    .review-task .paused-activity,
+    .review-task .share-results {
         width: 16rem;
         height: 7.5rem;
     }
@@ -32,19 +35,26 @@
         height: 4rem;
     }
 
-    .review-task .not-really-reaction a::before, .review-task .not-bad-reaction a::before, .review-task .fablous-reaction a::before {
+    .review-task .not-really-reaction a::before,
+    .review-task .not-bad-reaction a::before,
+    .review-task .fablous-reaction a::before {
         width: 2rem;
     }
 
-    .review-task .not-bad-reaction a::before, .review-task .fablous-reaction a::before {
+    .review-task .not-bad-reaction a::before,
+    .review-task .fablous-reaction a::before {
         left: .8rem;
     }
 
-    .review-task .not-really-reaction p, .review-task .not-bad-reaction p, .review-task .fablous-reaction p, .review-task .paused-activity .second-row {
+    .review-task .not-really-reaction p,
+    .review-task .not-bad-reaction p,
+    .review-task .fablous-reaction p,
+    .review-task .paused-activity .second-row {
         font-size: 0.8rem;
     }
 
-    .review-task .paused-activity, .review-task .paused-activity {
+    .review-task .paused-activity,
+    .review-task .paused-activity {
         width: 16rem;
         height: 7.5rem;
     }
@@ -71,7 +81,7 @@
         width: 3.9rem;
     }
 
-    .sing-in .background-turquoise {    
+    .sing-in .background-turquoise {
         height: 32rem;
         margin-bottom: 1rem;
     }
@@ -79,8 +89,11 @@
     .sing-in .background-turquoise {
         width: 19rem;
     }
-    
-    .sing-in .continue-google, .sing-in .continue-instagram, .sing-in .type-email, .sing-in .type-password {
+
+    .sing-in .continue-google,
+    .sing-in .continue-instagram,
+    .sing-in .type-email,
+    .sing-in .type-password {
         width: 17rem;
         margin: 0 auto;
     }
@@ -93,7 +106,9 @@
         left: 1rem;
     }
 
-    .sing-in .continue-google a, .sing-in .continue-instagram a, .sing-in .sing-in-form input {
+    .sing-in .continue-google a,
+    .sing-in .continue-instagram a,
+    .sing-in .sing-in-form input {
         font-size: .9rem;
     }
 
@@ -101,7 +116,8 @@
         font-size: 2rem;
     }
 
-    .welcome .activity, .welcome .add-activity {
+    .welcome .activity,
+    .welcome .add-activity {
         width: 19rem;
     }
 
@@ -111,12 +127,17 @@
         height: 4rem;
     }
 
-    .welcome .duration-clocks-img, .welcome .done-emoji, .welcome .repeat-icon, .welcome .unfinished-emoji {
+    .welcome .duration-clocks-img,
+    .welcome .done-emoji,
+    .welcome .repeat-icon,
+    .welcome .unfinished-emoji {
         width: 5.5rem;
         height: 2.5rem;
     }
 
-    .welcome .duration p, .welcome .repeat-activity p, .welcome .done-unifinished-activity p {
+    .welcome .duration p,
+    .welcome .repeat-activity p,
+    .welcome .done-unifinished-activity p {
         font-size: .8rem;
     }
 
@@ -124,11 +145,15 @@
         width: 16.3rem;
     }
 
-    .your-plans .be-productive, .your-plans .move-your-body, .your-plans .mindfulness {
+    .your-plans .be-productive,
+    .your-plans .move-your-body,
+    .your-plans .mindfulness {
         width: 19rem;
     }
 
-    .your-plans .be-productive .second-row, .your-plans .move-your-body .second-row, .your-plans .mindfulness .second-row {
+    .your-plans .be-productive .second-row,
+    .your-plans .move-your-body .second-row,
+    .your-plans .mindfulness .second-row {
         width: 84%;
     }
 
@@ -144,7 +169,7 @@
         width: 19rem;
     }
 
-    .edit-task .name-of-activity, 
+    .edit-task .name-of-activity,
     .edit-task .duration-music {
         width: 17rem;
     }
@@ -152,6 +177,29 @@
     .edit-task .background.pink .name-of-activity h3::before {
         left: 3.1rem;
     }
+
+    .menu .background {
+        margin-bottom: 1rem;
+        width: 18rem;
+    }
+
+    .menu .background .column,
+    .menu .background .log-out {
+        width: 16rem;
+    }
+
+    .your-data>header {
+        width: 90%;
+    }
+
+    .your-data>main>h1 {
+        margin-left: 1rem;
+    }
+
+    .your-data .months-data, .your-data .days-data {
+        width: 19rem;
+    }
+
 }
 
 @media only screen and (width: 568px) and (orientation: landscape) {
@@ -160,8 +208,8 @@
         width: 32rem;
     }
 
-    .edit-task .name-of-activity, 
-    .edit-task .duration, 
+    .edit-task .name-of-activity,
+    .edit-task .duration,
     .edit-task .music,
     .edit-task .duration-music {
         width: 28rem;
@@ -176,7 +224,7 @@
         left: 2.9rem;
     }
 
-    .edit-task .duration, 
+    .edit-task .duration,
     .edit-task .music {
         width: 13rem;
         height: 8.5rem;
@@ -196,12 +244,13 @@
 }
 
 @media only screen and (width: 667px) and (orientation: landscape) {
-    
+
     .edit-task .background {
         width: 36rem;
     }
 
-    .edit-task .name-of-activity, .edit-task .duration-music {
+    .edit-task .name-of-activity,
+    .edit-task .duration-music {
         width: 32rem;
         height: 10rem;
     }
@@ -218,7 +267,8 @@
         left: 9.8rem;
     }
 
-    .edit-task .duration, .edit-task .music {
+    .edit-task .duration,
+    .edit-task .music {
         width: 14rem;
         height: 8.5rem;
     }
@@ -287,7 +337,7 @@
         margin-bottom: 1rem;
     }
 
-    .sing-in .background-turquoise {    
+    .sing-in .background-turquoise {
         height: 32rem;
         margin-bottom: 1rem;
     }
@@ -300,9 +350,10 @@
 
 /* Iphone X landscape */
 
-@media only screen and (width: 812px) and (orientation: landscape) { 
+@media only screen and (width: 812px) and (orientation: landscape) {
 
-    .edit-task.during .background.glaucous .name-of-activity h3::before, .edit-task .background.glaucous .name-of-activity h3::before {
+    .edit-task.during .background.glaucous .name-of-activity h3::before,
+    .edit-task .background.glaucous .name-of-activity h3::before {
         left: 8.1rem;
         bottom: -.9rem;
     }
@@ -314,7 +365,8 @@
         bottom: -.8rem;
     }
 
-    .edit-task.during .review-btn, .edit-task.during .cancel-btn {
+    .edit-task.during .review-btn,
+    .edit-task.during .cancel-btn {
         width: 11rem;
         height: 3rem;
         border-radius: 21px;
@@ -322,12 +374,12 @@
 
 }
 
-/* Ipad */ 
+/* Ipad */
 
 @media only screen and (min-width: 768px) and (max-width: 1366px) {
 
     .review-task .background,
-    .settings .background-pink, 
+    .settings .background-pink,
     .sing-in .background-turquoise,
     .edit-task .background {
         width: 40rem;
@@ -338,7 +390,10 @@
         height: 48rem;
     }
 
-    .review-task .satisfaction, .review-task .paused-activity, .review-task .paused-activity, .review-task .share-results {
+    .review-task .satisfaction,
+    .review-task .paused-activity,
+    .review-task .paused-activity,
+    .review-task .share-results {
         width: 33rem;
         height: 12.2rem;
     }
@@ -374,7 +429,7 @@
 
     .review-task .share-results {
         justify-content: center;
-    } 
+    }
 
     .review-task .background .share-results h2 {
         margin-bottom: 1rem;
@@ -385,7 +440,7 @@
         width: 68%;
         height: 4.5rem;
     }
-    
+
     .settings .avatar,
     .your-plans .avatar {
         width: 4rem;
@@ -399,7 +454,7 @@
     .settings>main>h1 {
         font-size: 3rem;
     }
-    
+
     .settings .background-pink {
         height: 44rem;
     }
@@ -426,17 +481,23 @@
         font-size: 3rem;
     }
 
-    .sing-in .continue-google, .sing-in .continue-instagram, .sing-in .type-email, .sing-in .type-password {
+    .sing-in .continue-google,
+    .sing-in .continue-instagram,
+    .sing-in .type-email,
+    .sing-in .type-password {
         width: 30rem;
         height: 3.5rem;
         border-radius: 22px;
     }
 
-    .sing-in .continue-google a, .sing-in .continue-instagram a, .sing-in .sing-in-form input {
+    .sing-in .continue-google a,
+    .sing-in .continue-instagram a,
+    .sing-in .sing-in-form input {
         font-size: 1.2rem;
     }
 
-    .sing-in .continue-google a::before, .sing-in .continue-instagram a::before {
+    .sing-in .continue-google a::before,
+    .sing-in .continue-instagram a::before {
         bottom: 1rem;
     }
 
@@ -465,7 +526,8 @@
         height: 43rem;
     }
 
-    .welcome .activity, .welcome .add-activity {
+    .welcome .activity,
+    .welcome .add-activity {
         width: 36rem;
         height: 13rem;
     }
@@ -488,11 +550,16 @@
         align-items: center;
     }
 
-    .welcome .duration-clocks-img, .welcome .done-emoji, .welcome .repeat-icon, .welcome .unfinished-emoji {
+    .welcome .duration-clocks-img,
+    .welcome .done-emoji,
+    .welcome .repeat-icon,
+    .welcome .unfinished-emoji {
         height: 4rem;
     }
 
-    .welcome .duration p, .welcome .repeat-activity p, .welcome .done-unifinished-activity p {
+    .welcome .duration p,
+    .welcome .repeat-activity p,
+    .welcome .done-unifinished-activity p {
         font-size: 1.2rem;
     }
 
@@ -506,7 +573,9 @@
         font-size: 2.5rem;
     }
 
-    .your-plans .be-productive, .your-plans .move-your-body, .your-plans .mindfulness {
+    .your-plans .be-productive,
+    .your-plans .move-your-body,
+    .your-plans .mindfulness {
         width: 39rem;
         height: 15rem;
         display: flex;
@@ -514,19 +583,27 @@
         justify-content: center;
     }
 
-    .your-plans .be-productive>h2, .your-plans .move-your-body>h2, .your-plans .mindfulness>h2 {
+    .your-plans .be-productive>h2,
+    .your-plans .move-your-body>h2,
+    .your-plans .mindfulness>h2 {
         font-size: 1.9rem;
     }
 
-    .your-plans .be-productive .second-row, .your-plans .move-your-body .second-row, .your-plans .mindfulness .second-row {
+    .your-plans .be-productive .second-row,
+    .your-plans .move-your-body .second-row,
+    .your-plans .mindfulness .second-row {
         height: 10rem;
     }
 
-    .work-svg, .workout-svg, .meditation-svg {
+    .work-svg,
+    .workout-svg,
+    .meditation-svg {
         width: 11rem;
     }
 
-    .your-plans .be-productive .circle, .your-plans .move-your-body .circle, .your-plans .mindfulness .circle {
+    .your-plans .be-productive .circle,
+    .your-plans .move-your-body .circle,
+    .your-plans .mindfulness .circle {
         width: 3rem;
         height: 3rem;
     }
@@ -567,7 +644,7 @@
         bottom: -1.2rem;
     }
 
-    .edit-task .duration, 
+    .edit-task .duration,
     .edit-task .music {
         width: 16rem;
         height: 11.5rem;
@@ -582,7 +659,7 @@
         padding-left: 4.2rem;
         font-size: 1.8rem;
     }
-    
+
     .edit-task .music .spotify-img {
         width: 4.5rem;
         height: 4rem;
@@ -593,7 +670,7 @@
         height: 63%;
     }
 
-    .edit-task .background.glaucous .name-of-activity h3::before { 
+    .edit-task .background.glaucous .name-of-activity h3::before {
         left: 8.1rem;
         bottom: -.9rem;
     }
@@ -604,16 +681,19 @@
         left: 8.8rem;
     }
 
-    .edit-task.during .review-btn, .edit-task.during .cancel-btn {
+    .edit-task.during .review-btn,
+    .edit-task.during .cancel-btn {
         width: 13rem;
     }
 
-    .edit-task.during .review-btn, .edit-task.during .cancel-btn {
+    .edit-task.during .review-btn,
+    .edit-task.during .cancel-btn {
         height: 3.3rem;
         border-radius: 25px;
     }
 
-    .edit-task.during .review-btn a, .edit-task.during .cancel-btn a {
+    .edit-task.during .review-btn a,
+    .edit-task.during .cancel-btn a {
         font-size: 1.3rem;
     }
 
@@ -621,18 +701,72 @@
         width: 11.5rem;
         height: 10.5rem;
     }
+
+    .menu .avatar-pic {
+        width: 4.8rem;
+    }
+
+    .menu>main>h1 {
+        font-size: 2.5rem;
+    }
+
+    .menu .background {
+        width: 42rem;
+        height: 48rem;
+        border-radius: 40px;
+    }
+
+    .menu .background .column,
+    .menu .background .log-out {
+        width: 34rem;
+        height: 8rem;
+        border-radius: 41px;
+    }
+
+    .menu .background .column a,
+    .menu .background .log-out a {
+        font-size: 1.8rem;
+    }
+
+    .menu .background .log-out {
+        width: 25rem;
+        height: 4rem;
+    }
+
+    .your-data>header {
+        width: 73%;
+    }
+
+    .your-data .wrapper {
+        width: 39rem;
+        height: 47rem;
+    }
+
+    .your-data>main>h1 {
+        margin-left: 5rem;
+    }
+
+    .your-data .months-data, .your-data .days-data {
+        width: 100%;
+        height: 22rem;
+    }
 }
 
 
-/* Ipad Pro */ 
+/* Ipad Pro */
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
 
     .settings .avatar {
         width: 5rem;
     }
-    
-    .your-plans>main>h1, .settings>main>h1, .welcome>header>h1, .review-task>header>h1, .sing-in>main>h1, .edit-task>header>h1 {
+
+    .your-plans>main>h1,
+    .settings>main>h1,
+    .welcome>header>h1,
+    .review-task>header>h1,
+    .sing-in>main>h1,
+    .edit-task>header>h1 {
         font-size: 3.5rem;
     }
 
@@ -661,12 +795,20 @@
         width: 6rem;
     }
 
-    .review-task .satisfaction, .review-task .paused-activity, .review-task .paused-activity, .review-task .share-results {
+    .review-task .satisfaction,
+    .review-task .paused-activity,
+    .review-task .paused-activity,
+    .review-task .share-results {
         width: 48rem;
         height: 17.2rem;
     }
 
-    .your-plans .be-productive>h2, .your-plans .move-your-body>h2, .your-plans .mindfulness>h2, .welcome .activity>h2, .review-task .background h2, .edit-task .background h2 {
+    .your-plans .be-productive>h2,
+    .your-plans .move-your-body>h2,
+    .your-plans .mindfulness>h2,
+    .welcome .activity>h2,
+    .review-task .background h2,
+    .edit-task .background h2 {
         font-size: 2.4rem;
     }
 
@@ -675,11 +817,18 @@
         height: 9.5rem;
     }
 
-    .welcome .duration p, .welcome .repeat-activity p, .welcome .done-unifinished-activity p, .review-task .not-really-reaction p, .review-task .not-bad-reaction p, .review-task .fablous-reaction p {
+    .welcome .duration p,
+    .welcome .repeat-activity p,
+    .welcome .done-unifinished-activity p,
+    .review-task .not-really-reaction p,
+    .review-task .not-bad-reaction p,
+    .review-task .fablous-reaction p {
         font-size: 1.6rem;
     }
 
-    .review-task .not-really-reaction a::before, .review-task .not-bad-reaction a::before, .review-task .fablous-reaction a::before {
+    .review-task .not-really-reaction a::before,
+    .review-task .not-bad-reaction a::before,
+    .review-task .fablous-reaction a::before {
         width: 4.5rem;
         height: 5.5rem;
         bottom: 2rem;
@@ -706,13 +855,17 @@
         width: 4rem;
     }
 
-    .sing-in .sing-in-btn, .review-task .repeat-btn, .edit-task .start-btn {
+    .sing-in .sing-in-btn,
+    .review-task .repeat-btn,
+    .edit-task .start-btn {
         width: 19rem;
         height: 3.3rem;
         border-radius: 22px;
     }
 
-    .sing-in .sing-in-btn a, .review-task .repeat-btn a, .edit-task .start-btn a {
+    .sing-in .sing-in-btn a,
+    .review-task .repeat-btn a,
+    .edit-task .start-btn a {
         font-size: 1.5rem;
     }
 
@@ -724,17 +877,23 @@
         height: 65rem;
     }
 
-    .sing-in .continue, .sing-in .sing-in-form {
+    .sing-in .continue,
+    .sing-in .sing-in-form {
         height: 30%;
     }
 
-    .sing-in .continue-google, .sing-in .continue-instagram, .sing-in .type-email, .sing-in .type-password {
+    .sing-in .continue-google,
+    .sing-in .continue-instagram,
+    .sing-in .type-email,
+    .sing-in .type-password {
         width: 44rem;
         height: 4.5rem;
         border-radius: 35px;
     }
 
-    .sing-in .continue-google a, .sing-in .continue-instagram a, .sing-in .sing-in-form input {
+    .sing-in .continue-google a,
+    .sing-in .continue-instagram a,
+    .sing-in .sing-in-form input {
         font-size: 1.5rem;
     }
 
@@ -745,12 +904,14 @@
     .sing-in .continue-instagram a::before {
         left: 9rem;
     }
-    
-    .sing-in .continue-google a::before, .sing-in .continue-instagram a::before {
+
+    .sing-in .continue-google a::before,
+    .sing-in .continue-instagram a::before {
         bottom: 1rem;
     }
 
-    .sing-in .continue-google a::before, .sing-in .continue-instagram a::before {
+    .sing-in .continue-google a::before,
+    .sing-in .continue-instagram a::before {
         width: 2.5rem;
         height: 2.3rem;
     }
@@ -774,7 +935,11 @@
         height: 4rem;
     }
 
-    .your-plans .be-productive, .your-plans .move-your-body, .your-plans .mindfulness, .welcome .activity, .welcome .add-activity {
+    .your-plans .be-productive,
+    .your-plans .move-your-body,
+    .your-plans .mindfulness,
+    .welcome .activity,
+    .welcome .add-activity {
         width: 52rem;
         height: 20rem;
         border-radius: 40px;
@@ -793,7 +958,10 @@
         align-items: center;
     }
 
-    .welcome .duration-clocks-img, .welcome .done-emoji, .welcome .repeat-icon, .welcome .unfinished-emoji {
+    .welcome .duration-clocks-img,
+    .welcome .done-emoji,
+    .welcome .repeat-icon,
+    .welcome .unfinished-emoji {
         height: 6rem;
     }
 
@@ -805,7 +973,7 @@
     .welcome .plus-btn img {
         width: 6rem;
     }
-    
+
     .your-plans .done-tasks p {
         font-size: 1.8rem;
         margin: 0.8rem 0 0;
@@ -815,7 +983,9 @@
         width: 6rem;
     }
 
-    .your-plans .be-productive .circle, .your-plans .move-your-body .circle, .your-plans .mindfulness .circle {
+    .your-plans .be-productive .circle,
+    .your-plans .move-your-body .circle,
+    .your-plans .mindfulness .circle {
         width: 4rem;
         height: 4rem;
     }
@@ -835,13 +1005,14 @@
         right: -5.5rem;
     }
 
-    .edit-task .name-of-activity, 
+    .edit-task .name-of-activity,
     .edit-task .duration-music {
         width: 48rem;
         height: 16rem;
     }
 
-    .edit-task .duration, .edit-task .music {
+    .edit-task .duration,
+    .edit-task .music {
         width: 22rem;
         height: 14.5rem;
     }
@@ -874,8 +1045,10 @@
         bottom: -1.5rem;
     }
 
-    .edit-task .timer, .edit-task .timer-during, .edit-task .timer-done {
-        width: 13.5rem; 
+    .edit-task .timer,
+    .edit-task .timer-during,
+    .edit-task .timer-done {
+        width: 13.5rem;
         height: 13.5rem;
     }
 
@@ -892,4 +1065,57 @@
         left: 12.8rem;
     }
 
+    .menu .avatar-pic {
+        width: 5.8rem;
+    }
+
+    .menu>main>h1 {
+        font-size: 3.5rem;
+        ;
+    }
+
+    .menu .background {
+        width: 57rem;
+        height: 62rem;
+        border-radius: 60px;
+    }
+
+    .menu .background .column,
+    .menu .background .log-out {
+        width: 41rem;
+        height: 9rem;
+    }
+
+    .menu .background .column a,
+    .menu .background .log-out a {
+        font-size: 2.2rem;
+    }
+
+    .your-data>header {
+        width: 95%;
+    }
+
+    .your-data .avatar-pic {
+        width: 5rem;
+    }
+
+    .your-data .hamburger-menu {
+        width: 5rem;
+        height: 4rem;
+    }
+
+    .your-data>main>h1 {
+        margin-left: 0;
+        font-size: 3rem;
+    }
+
+    .your-data .wrapper {
+        width: 40rem;
+        height: 65rem;
+    }
+
+    .your-data .months-data, .your-data .days-data {
+        width: 100%;
+        height: 32rem;
+    }
 }

@@ -18,6 +18,7 @@ html {
     --pastelpink: #F6A5A5;
     --glaucous: #7E85BD;
     --white-ghost: rgba(255, 255, 255, .23);
+    --grey-white: #F5F5F5;
 }
 
 /* YOUR PLANS */
@@ -35,7 +36,9 @@ html {
 .settings>header,
 .welcome>header,
 .review-task>header,
-.edit-task>header {
+.edit-task>header,
+.menu>header,
+.your-data>header {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -48,7 +51,9 @@ html {
 .welcome>header>h1,
 .review-task>header>h1,
 .sing-in>main>h1,
-.edit-task>header>h1 {
+.edit-task>header>h1,
+.menu>main>h1,
+.your-data>main>h1 {
     font-weight: 500;
     margin-bottom: 33px;
     letter-spacing: 0.6px;
@@ -340,7 +345,8 @@ html {
 .review-task .hamburger-menu,
 .settings .hamburger-menu,
 .edit-task .hamburger-menu,
-.welcome .hamburger-menu {
+.welcome .hamburger-menu,
+.your-data .hamburger-menu {
     background-image: url("../assets/imgs/hamburger-menu.svg");
     width: 3rem;
     height: 2rem;
@@ -509,7 +515,7 @@ html {
     margin: 1rem 0;
 }
 
-.sing-in .sing-in-btn a, .review-task .repeat-btn a, .edit-task .start-btn a, .edit-task.during .review-btn a, .edit-task.during .cancel-btn a {
+.sing-in .sing-in-btn a, .review-task .repeat-btn a, .edit-task .start-btn a, .edit-task.during .review-btn a, .edit-task.during .cancel-btn a, .menu .background .column a {
     text-decoration: none;
     color: white;
     font-weight: 300;
@@ -802,3 +808,93 @@ html {
 .review-task .not-bad-reaction a::before, .review-task .fablous-reaction a::before {
     left: 1rem;
 }
+
+/* MENU */ 
+
+.menu .avatar-pic {
+    margin: 0 auto;
+    width: 3.8rem;
+}
+
+.menu .background {
+    background-color: var(--grey-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 21rem;
+    height: 34rem;
+    border-radius: 29px;
+    margin-bottom: 1rem;
+}
+
+.menu .background .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 65%;
+}
+
+.menu .background .column, .menu .background .log-out {
+    width: 18rem;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 29px;
+    font-size: 1.3rem;
+}
+
+.menu .check-data {
+    background-color: var(--pastelpink);
+}
+
+.menu .back-to-plans {
+    background-color: var(--glaucous);
+}
+
+.menu .my-settings {
+    background-color: var(--turquoise);
+}
+
+.menu .background .log-out a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu .background .log-out {
+    width: 15rem;
+    height: 3rem;
+    border: 1px solid black;
+}
+
+
+/* YOUR DATA */ 
+
+.your-data .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 21rem;
+    height: 34rem;
+    margin-bottom: 1rem;
+}
+
+.your-data .months-data, .your-data .days-data {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-origin: content-box;
+    width: 21rem;
+    height: 16rem;
+}
+
+.your-data .months-data {
+    background-image: url("../assets/imgs/data-months.svg");
+}
+
+.your-data .days-data  {
+    background-image: url("../assets/imgs/data-days.svg");
+}
+
