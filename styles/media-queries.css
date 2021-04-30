@@ -1,4 +1,3 @@
-/* REVIEW */
 
 /* Iphone 5/SE */
 
@@ -202,6 +201,8 @@
 
 }
 
+/* Iphone 5/SE landscape */
+
 @media only screen and (width: 568px) and (orientation: landscape) {
 
     .edit-task .background {
@@ -242,6 +243,8 @@
         left: 8.1rem;
     }
 }
+
+/* Iphone 6/7/8 landscape */
 
 @media only screen and (width: 667px) and (orientation: landscape) {
 
@@ -288,34 +291,6 @@
         left: 10.1rem;
     }
 }
-
-/*
-@media only screen and (width: 1366px) and (orientation: landscape) {
-
-    .edit-task .background {
-        width: 73rem;
-    }
-
-    .edit-task .name-of-activity, .edit-task .duration-music {
-        width: 62rem;
-        height: 18rem;
-    }
-
-    .edit-task .name-of-activity h3::before {
-        left: 19.9rem;
-    }
-
-    .edit-task .duration h3::before {
-        left: 6.5rem;
-    }
-
-    .edit-task .duration, .edit-task .music {
-        width: 29rem;
-        height: 16.5rem;
-    }
-}
-
-*/
 
 /* Iphone 6/7/8 Plus */
 
